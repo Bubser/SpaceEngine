@@ -10,17 +10,10 @@ Réalisation d'un moteur de jeu dans le cadre de l'UE Développement d'applicati
 
 - Etat de l’art génération procédurale de terrain, génération et rendu de planètes
 - Choix developpement (plateforme, langage)
+- Mise en place de l'environnement de développement
 
 
 ### Semaine 2
-
-#### Génération d’une planète simple
-
-- Mise en place de l’environnement de développement 
-- Application du bruit de Perlin à une sphère
-
-
-### Semaine 3
 
 #### Gestion des mouvements 
 
@@ -28,13 +21,23 @@ Réalisation d'un moteur de jeu dans le cadre de l'UE Développement d'applicati
 - Rendu temps réel du terrain
 
 
-### Semaines 4 et 5
+### Semaines 3 et 4
+
+#### Présentation étude documentaire
 
 #### Gestion de la physique
 
 - Gestion de la gravité
 - Gestion des collisions
 - Chargement de GameObjects
+
+
+### Semaines 5
+
+#### Génération d’une planète simple
+
+- Application du bruit de Perlin à une sphère
+- Generation procédurale des planètes 
 
 
 ### Semaine 6
@@ -53,13 +56,3 @@ Réalisation d'un moteur de jeu dans le cadre de l'UE Développement d'applicati
 - Ajout de diversité au monde, comme des spécificités pour chaque planète
 - Nettoyage du code
 - Préparation présentation et démo
-
-
-
-
-
-
-
-
-
-

@@ -1,3 +1,4 @@
 *.out 
 *.exe 
 build/
+Dependencies/glfw-3.3.5/docs

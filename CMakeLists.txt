@@ -69,14 +69,14 @@ add_executable(spaceengine WIN32 MACOSX_BUNDLE
 #Windows cleanup
 if (MSVC)
     # Tell MSVC to use main instead of WinMain for Windows subsystem executables
-    set_target_properties(raytracer PROPERTIES LINK_FLAGS "/ENTRY:mainCRTStartup")
+    set_target_properties(spaceengine PROPERTIES LINK_FLAGS "/ENTRY:mainCRTStartup")
 endif()
 
 #Apple cleanup
 if (APPLE)
-    set_target_properties(raytracer PROPERTIES MACOSX_BUNDLE_BUNDLE_NAME "simple")
+    set_target_properties(spaceengine PROPERTIES MACOSX_BUNDLE_BUNDLE_NAME "simple")
 	
-    set_target_properties(raytracer PROPERTIES
+    set_target_properties(spaceengine PROPERTIES
                           MACOSX_BUNDLE_SHORT_VERSION_STRING ${GLFW_VERSION}
                           MACOSX_BUNDLE_LONG_VERSION_STRING ${GLFW_VERSION_FULL}
     					  MACOSX_BUNDLE_ICON_FILE glfw.icns)				  
